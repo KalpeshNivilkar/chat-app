@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-clone-serverless",
+  "version": "1.0.0",
+  "description": "Real-time WhatsApp-like chat app using serverless architecture",
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev": "echo 'See README.md for development instructions'",
+    "deploy:frontend": "cd frontend && vercel --prod",
+    "deploy:backend": "cd backend && serverless deploy"
+  },
+  "keywords": ["chat", "websocket", "serverless", "react", "aws"],
+  "author": "BLACKBOXAI",
+  "license": "MIT"
+}
+
